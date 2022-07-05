@@ -3779,6 +3779,6 @@ div.float-right { float: right; margin-left: 10px; margin-bottom: 5px; }
 
 .hero.is-small .hero-body { height: 110px; padding: 0.0rem 1.5rem; }
 
-.hero.has-bg-img { background: url("/images/bg-04.png") repeat repeat; border-bottom: 1px solid #666666; }
+.hero.has-bg-img { background: url("images/bg-04.png") repeat repeat; border-bottom: 1px solid #666666; }
 
 .navbar, .sidenavbar { border-bottom: 1px solid #666666; }
