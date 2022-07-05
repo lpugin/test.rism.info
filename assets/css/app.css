@@ -18,6 +18,8 @@
 
 .card a:hover .card-image > img { transition: filter 0.2s ease-in-out; filter: brightness(105%); }
 
+.opac-search input { border-radius: 3px; }
+
 .opac-search .column { padding: 5px 0px; }
 
 .opac-search .column h1, .opac-search .column h2 { color: #004f8f; font-weight: 500; }
@@ -26,9 +28,11 @@
 
 .opac-search .column h2 { font-size: 18px; }
 
-.opac-search a.button:hover span.engine i.checked { display: block !important; }
+.opac-search div.engine:hover i.checked { display: block !important; }
 
-.opac-search a.button:hover span.engine i.unchecked { display: none !important; }
+.opac-search div.engine:hover i.unchecked { display: none !important; }
+
+.opac-search div.engine a { border-radius: 3px; }
 
 #siglaCatalog { margin-top: 8px; }
 
@@ -3775,6 +3779,6 @@ div.float-right { float: right; margin-left: 10px; margin-bottom: 5px; }
 
 .hero.is-small .hero-body { height: 110px; padding: 0.0rem 1.5rem; }
 
-.hero.has-bg-img { background: url("/test.rism.info/images/bg-04.png") repeat repeat; border-bottom: 1px solid #666666; }
+.hero.has-bg-img { background: url("/images/bg-04.png") repeat repeat; border-bottom: 1px solid #666666; }
 
 .navbar, .sidenavbar { border-bottom: 1px solid #666666; }
