@@ -166,8 +166,12 @@
         if (search == "rism-online") {
             document.getElementById("rism-online-unchecked").style.display = "none";
             document.getElementById("rism-online-checked").style.display = "block"; 
+            document.getElementById("opac-unchecked").style.display = "block";
+            document.getElementById("opac-checked").style.display = "none"; 
         }
         else {
+            document.getElementById("rism-online-unchecked").style.display = "block";
+            document.getElementById("rism-online-checked").style.display = "none"; 
             document.getElementById("opac-unchecked").style.display = "none";
             document.getElementById("opac-checked").style.display = "block"; 
         }
